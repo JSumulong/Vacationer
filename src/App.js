@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import data from './data';
 import VacationCard from './VacationCard';
+import Slider from './Slider';
 
 
 class App extends Component {
@@ -12,12 +13,14 @@ class App extends Component {
   	}
     return (
       <div className="App" style={appStyle}>
-	      {data.vacations
-	      	.map(location => {
-	      	return (
-	      		<VacationCard data={location} />
-	      	)
-	      })}
+        <Slider content=
+  	      {data.vacations
+  	      	.map(location => {
+  	      	return (
+  	      		<VacationCard data={location} />
+  	      	)
+  	      })}
+        />
       </div>
     );
   }

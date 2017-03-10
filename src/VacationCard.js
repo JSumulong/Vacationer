@@ -4,14 +4,12 @@ import Image from './Image';
 class VacationCard extends Component {
 	render() {
 		const divStyle = {
-			"width": 490,
+			"width": 450,
 			"height": 400,
 			"backgroundColor": "white",
-			"marginRight": "auto",
-			"marginLeft": "auto",
+			"marginRight": 25,
 			"marginBottom": 50,
 			"overflow": "hidden",
-			// "boxShadow": "0 2px 10px 1px"
 		}
 		const h3Style = {
 			"margin": 0,
