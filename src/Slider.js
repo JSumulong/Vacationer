@@ -5,6 +5,7 @@ class Slider extends Component {
 		const sliderDivOuter = {
 			"width": "100%",
 			"height": 400,
+			"marginTop": 50,
 			"overflow": "hidden"
 		}
 		const sliderDivInner = {
