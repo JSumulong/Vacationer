@@ -4,6 +4,7 @@ import './App.css';
 import data from './data';
 import VacationCard from './VacationCard';
 import Slider from './Slider';
+import Header from './Header';
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
   	}
     return (
       <div className="App" style={appStyle}>
+        <Header />
         <Slider content=
   	      {data.vacations
   	      	.map(location => {
