@@ -5,6 +5,7 @@ import data from './data';
 import VacationCard from './VacationCard';
 import Slider from './Slider';
 import Header from './Header';
+import LargeSlider from './LargeSlider';
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
   	}
     return (
       <div className="App" style={appStyle}>
+        <LargeSlider />
         <Header />
         <Slider content=
   	      {data.vacations
