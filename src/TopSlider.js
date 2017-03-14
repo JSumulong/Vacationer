@@ -27,9 +27,9 @@ class TopSlider extends Component {
 	render() {
 		return (
 			<div className="slider">
-				{ this.state.currentSlide === 1 ? <TopSlide imageUrl="https://images.unsplash.com/uploads/1413142095961484763cf/d141726c?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop="/> : null }
+				{ this.state.currentSlide === 1 ? <TopSlide imageUrl="https://images.unsplash.com/photo-1473951574080-01fe45ec8643?dpr=2&auto=format&fit=crop&w=1199&h=770&q=80&cs=tinysrgb&crop="/> : null }
 				{ this.state.currentSlide === 2 ? <TopSlide imageUrl="https://images.unsplash.com/photo-1483322314125-655a591f2d41?dpr=2&auto=format&fit=crop&w=1199&h=674&q=80&cs=tinysrgb&crop="/> : null }
-				{ this.state.currentSlide === 3 ? <TopSlide imageUrl="https://images.unsplash.com/photo-1473951574080-01fe45ec8643?dpr=2&auto=format&fit=crop&w=1199&h=770&q=80&cs=tinysrgb&crop="/> : null }
+				{ this.state.currentSlide === 3 ? <TopSlide imageUrl="https://images.unsplash.com/photo-1487730116645-74489c95b41b?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop="/> : null }
 				<RightArrow nextSlide={this.nextSlide} />
 				<LeftArrow prevSlide={this.prevSlide} />
 			</div>

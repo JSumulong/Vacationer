@@ -10,6 +10,7 @@ class VacationCard extends Component {
 			"marginRight": 25,
 			"marginBottom": 50,
 			"overflow": "hidden",
+			fontFamily: "'Raleway Dots', cursive"
 		}
 		const h3Style = {
 			"margin": 0,
