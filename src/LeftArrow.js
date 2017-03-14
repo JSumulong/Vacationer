@@ -4,7 +4,7 @@ function LeftArrow(props) {
 	const LeftArrowStyle = {
 		position: "absolute",
 		left: 0,
-		bottom: "38%",
+		bottom: "47%",
 		width: 40,
 		height: 90,
 		cursor: "pointer",
