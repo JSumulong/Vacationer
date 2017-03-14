@@ -17,7 +17,7 @@ class Slider extends Component {
 		}
 		return (
 			<div style={sliderDivOuter}>
-				<div className="slider" style={sliderDivInner}>
+				<div style={sliderDivInner}>
 					{this.props.content}
 				</div>
 			</div>

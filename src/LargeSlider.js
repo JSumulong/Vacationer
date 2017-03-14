@@ -28,9 +28,9 @@ class LargeSlider extends Component {
 		}
 		return (
 			<div style={style}>
-				<input type="radio" style={radioStyle}/>
-				<input type="radio" style={radioStyle}/>
-				<input type="radio" style={radioStyle}/>
+				<input className="radio-1" type="radio" style={radioStyle}/>
+				<input className="radio-2" type="radio" style={radioStyle}/>
+				<input className="radio-3" type="radio" style={radioStyle}/>
 				<ul style={ulStyle}>
 					<li id="slide-1">
 						<img style={imgStyle} src="https://images.unsplash.com/uploads/1413142095961484763cf/d141726c?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" />
