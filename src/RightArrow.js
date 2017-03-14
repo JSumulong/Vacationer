@@ -4,7 +4,7 @@ function RightArrow(props) {
 	const RightArrowStyle = {
 position: "absolute",
 		right: 0,
-		bottom: "38%",
+		bottom: "47%",
 		width: 40,
 		height: 90,
 		cursor: "pointer",
