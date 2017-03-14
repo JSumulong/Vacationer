@@ -5,7 +5,9 @@ class Header extends Component {
 	render() {
 		const outerDivStyle = {
 			"backgroundColor": "white",
-			"height": 50
+			"height": 50,
+			fontFamily: "'Pacifico', cursive",
+			fontSize: 20
 		}
 		const ulStyle = {
 			"listStyle": "none",

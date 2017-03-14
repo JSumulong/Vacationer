@@ -12,7 +12,9 @@ import TopSlider from './TopSlider';
 class App extends Component {
   render() {
   	const appStyle = {
-  		"backgroundColor": "white"
+  		"backgroundColor": "white",
+      // fontFamily: "'Josefin Sans', sans-serif"
+      fontFamily: "'Pacifico', cursive"
   	}
     return (
       <div className="App" style={appStyle}>
