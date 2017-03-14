@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import TopSlideOne from './TopSlideOne';
-import TopSlideTwo from './TopSlideTwo';
-import TopSlideThree from './TopSlideThree';
 import RightArrow from './RightArrow';
 import LeftArrow from './LeftArrow';
+import TopSlide from './TopSlide';
 
 class TopSlider extends Component {
 	constructor(props) {
@@ -29,9 +27,9 @@ class TopSlider extends Component {
 	render() {
 		return (
 			<div className="slider">
-				{ this.state.currentSlide === 1 ? <TopSlideOne /> : null }
-				{ this.state.currentSlide === 2 ? <TopSlideTwo /> : null }
-				{ this.state.currentSlide === 3 ? <TopSlideThree /> : null }
+				{ this.state.currentSlide === 1 ? <TopSlide imageUrl="https://images.unsplash.com/uploads/1413142095961484763cf/d141726c?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop="/> : null }
+				{ this.state.currentSlide === 2 ? <TopSlide imageUrl="https://images.unsplash.com/photo-1483322314125-655a591f2d41?dpr=2&auto=format&fit=crop&w=1199&h=674&q=80&cs=tinysrgb&crop="/> : null }
+				{ this.state.currentSlide === 3 ? <TopSlide imageUrl="https://images.unsplash.com/photo-1473951574080-01fe45ec8643?dpr=2&auto=format&fit=crop&w=1199&h=770&q=80&cs=tinysrgb&crop="/> : null }
 				<RightArrow nextSlide={this.nextSlide} />
 				<LeftArrow prevSlide={this.prevSlide} />
 			</div>
