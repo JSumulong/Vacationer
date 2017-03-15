@@ -5,13 +5,12 @@ class VacationCard extends Component {
 	render() {
 		const divStyle = {
 			"width": 365,
-			"height": 350,
+			"height": 290,
 			"backgroundColor": "white",
 			"marginRight": 0,
 			"marginBottom": 50,
 			"overflow": "hidden",
-			fontFamily: "'Raleway Dots', cursive",
-			border: "solid red 1px"
+			fontFamily: "'Raleway Dots', cursive"
 		}
 		const h3Style = {
 			"margin": 0,
