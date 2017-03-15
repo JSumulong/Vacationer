@@ -8,7 +8,7 @@ class ListItem extends Component {
 			"height": 50,
 			"display": "flex",
 			"justifyContent": "center",
-			"alignItems": "center"
+			"alignItems": "center",
 		}
 		return (
 			<li style={style}>{this.props.content}</li>
