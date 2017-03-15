@@ -5,6 +5,7 @@ import VacationCard from './VacationCard/VacationCard';
 import Slider from './Slider/Slider';
 import Header from './Header/Header';
 import TopSlider from './TopSlider/TopSlider';
+import Testimonies from './Testimonies/Testimonies';
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
   	      	)
   	      })}
         />
+        <Testimonies />
       </div>
     );
   }

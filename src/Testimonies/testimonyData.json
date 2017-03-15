@@ -1,0 +1,12 @@
+{
+	"testimonies": [{
+		"img": "https://images.unsplash.com/photo-1475823678248-624fc6f85785?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=",
+		"name": "Sujin",
+		"blurb": "asdf"
+	},
+	{
+		"img": "https://images.unsplash.com/photo-1463453091185-61582044d556?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=",
+		"name": "Lamar",
+		"blurb": "asdf2"
+	}]	
+}
