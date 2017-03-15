@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 class Image extends Component {
 	render() {
 		const imgStyle = {
-			"height": 320,
-			"width": 500
+			maxWidth: 350
 		}
 		const divStyle = {
-			"width": 495,
-			"height": 315,
-			"marginLeft": "auto",
-			"marginRight": "auto"
+			maxWidth: 325,
+			"height": 225,
+			"marginLeft": 10,
+			border: "solid black 1px",
+			overflow: "hidden"
 		}
 		return (
 			<div style={divStyle}>

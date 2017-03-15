@@ -20,7 +20,7 @@ function LeftArrow(props) {
 		marginBottom: 15
 	}
 	return (
-		<div style={LeftArrowStyle} onClick={props.prevSlide}>
+		<div className="leftArrow" style={LeftArrowStyle} onClick={props.prevSlide}>
 			<span style={spanStyle}>&#8249;</span>
 		</div>
 	)

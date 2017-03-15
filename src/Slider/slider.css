@@ -1,0 +1,15 @@
+.vacationCardSlider .leftArrow {
+	visibility: hidden;
+}
+
+.vacationCardSlider:hover .leftArrow {
+	visibility: visible;
+}
+
+.vacationCardSlider .rightArrow {
+	visibility: hidden;
+}
+
+.vacationCardSlider:hover .rightArrow {
+	visibility: visible;
+}
