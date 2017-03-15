@@ -9,7 +9,6 @@ class Image extends Component {
 			maxWidth: 325,
 			"height": 225,
 			"marginLeft": 10,
-			border: "solid black 1px",
 			overflow: "hidden"
 		}
 		return (

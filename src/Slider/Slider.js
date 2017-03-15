@@ -1,33 +1,51 @@
 import React, { Component } from 'react';
-import RightArrow from '../Arrows/RightArrow';
-import LeftArrow from '../Arrows/LeftArrow';
 import './slider.css';
+import SliderArrow from '../Arrows/SliderArrow';
 
 class Slider extends Component {
+	nextSlide() {
+		const slidable = document.querySelector('.slidable');
+		slidable.style.transform = "translateX(-1112px)";
+	}
+	prevSlide() {
+		const slidable = document.querySelector('.slidable');
+		slidable.style.transform = "translateX(0)";
+	}
 	render() {
+		const container = {
+			width: "100%",
+			display: "flex",
+			justifyContent: "center",
+			alignItems: "center"
+		}
 		const sliderDivOuter = {
 			"width": 1100,
-			"height": 400,
+			"height": 295,
 			"marginTop": 50,
-			marginLeft: "auto",
-			marginRight: "auto",
+			marginBottom: 50,
+			marginLeft: 0,
+			marginRight: 0,
 			"overflow": "hidden",
 			position: "relative"
 		}
 		const sliderDivInner = {
 			"display": "flex",
 			"justifyContent": "flexStart",
-			"height": 400,
+			"height": 290,
 			"width": 3000,
-			"overflow": "hidden"
+			paddingLeft: 12,
+			"overflow": "hidden",
+			transition: "all 800ms"
 		}
 		return (
-			<div className="vacationCardSlider" style={sliderDivOuter}>
-				<div style={sliderDivInner}>
-					{this.props.content}
+			<div className="sliderContainer" style={container}> 
+				<SliderArrow arrow="&#8249;" onClick={this.prevSlide}/>
+				<div className="vacationCardSlider" style={sliderDivOuter}>
+					<div className="slidable" style={sliderDivInner}>
+						{this.props.content}
+					</div>
 				</div>
-				<RightArrow />
-				<LeftArrow />
+				<SliderArrow arrow="&#8250;" onClick={this.nextSlide}/>
 			</div>
 		)
 	}
