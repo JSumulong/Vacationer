@@ -4,21 +4,25 @@ import Image from './Image';
 class VacationCard extends Component {
 	render() {
 		const divStyle = {
-			"width": 450,
-			"height": 400,
+			"width": 365,
+			"height": 350,
 			"backgroundColor": "white",
-			"marginRight": 25,
+			"marginRight": 0,
 			"marginBottom": 50,
 			"overflow": "hidden",
-			fontFamily: "'Raleway Dots', cursive"
+			fontFamily: "'Raleway Dots', cursive",
+			border: "solid red 1px"
 		}
 		const h3Style = {
 			"margin": 0,
 			"paddingTop": 10,
-			"textAlign": "left"
+			"textAlign": "left",
+			marginLeft: 10
 		}
 		const pStyle = {
-			"margin": 0,
+			marginLeft: 10,
+			marginTop: 2,
+			marginBottom: 0,
 			"paddingTop": 2,
 			"textAlign": "left",
 			"fontWeight": "lighter"

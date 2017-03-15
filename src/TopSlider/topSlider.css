@@ -1,0 +1,16 @@
+.topSlider .leftArrow {
+	visibility: hidden;
+}
+
+.topSlider:hover .leftArrow {
+	visibility: visible;
+}
+
+.topSlider .rightArrow {
+	visibility: hidden;
+}
+
+.topSlider:hover .rightArrow {
+	visibility: visible;
+}
+

@@ -2,7 +2,7 @@ import React from 'react';
 
 function RightArrow(props) {
 	const RightArrowStyle = {
-position: "absolute",
+		position: "absolute",
 		right: 0,
 		bottom: "47%",
 		width: 40,
@@ -21,7 +21,7 @@ position: "absolute",
 	}
 
 	return (
-		<div style={RightArrowStyle} onClick={props.nextSlide}>
+		<div className="rightArrow" style={RightArrowStyle} onClick={props.nextSlide}>
 			<span style={spanStyle}>&#8250;</span>
 		</div>
 	)
