@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import RightArrow from './RightArrow';
-import LeftArrow from './LeftArrow';
+import RightArrow from '../Arrows/RightArrow';
+import LeftArrow from '../Arrows/LeftArrow';
 import TopSlide from './TopSlide';
 
 class TopSlider extends Component {

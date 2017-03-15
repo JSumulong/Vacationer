@@ -7,11 +7,12 @@ class Header extends Component {
 			"backgroundColor": "white",
 			"height": 50,
 			fontFamily: "'Pacifico', cursive",
-			fontSize: 20
+			fontSize: 25
 		}
 		const ulStyle = {
 			"listStyle": "none",
-			"padding": 0,
+			margin: 0,
+			"padding": 5,
 			"display": "flex",
 			"justifyContent": "center",
 			"alignItems": "center"
@@ -23,7 +24,7 @@ class Header extends Component {
 					<ListItem content="About Us"/>
 					<ListItem content="Search"/>
 					<ListItem content="Help"/>
-					<ListItem content="Shopping Cart"/>
+					<ListItem content="Cart"/>
 				</ul>
 			</div>
 		)
