@@ -9,12 +9,20 @@ class TestimonyCard extends Component {
 			padding: 0,
 			flex: 1,
 			display: "flex",
+			flexDirection: "column",
 			justifyContent: "center",
-			height: 600
+			alignItems: "center",
+			height: 600,
+			borderRight: "solid whitesmoke 1px",
+			borderTop: "solid whitesmoke 1px"
 		}
 		return (
 			<div className="testimonyCard" style={style}>
-				<TestimonyImage img={this.props.img}/>
+				<div>
+					<TestimonyImage img={this.props.img}/>
+				</div>
+				<h1>{this.props.name}</h1>
+				<p>{this.props.blurb}</p>
 			</div>
 		)
 	}
