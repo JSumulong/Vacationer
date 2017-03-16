@@ -8,7 +8,7 @@ class TestimonyImage extends Component {
 		const divStyle = {
 			borderRadius: "50%",
 			overflow: "hidden",
-			maxWidth: 300
+			width: 300
 		}
 		return (
 			<div style={divStyle}>
