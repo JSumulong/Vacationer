@@ -6,6 +6,7 @@ import Slider from './Slider/Slider';
 import Header from './Header/Header';
 import TopSlider from './TopSlider/TopSlider';
 import Testimonies from './Testimonies/Testimonies';
+import Footer from './Footer/Footer';
 
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
   	      })}
         />
         <Testimonies />
+        <Footer />
       </div>
     );
   }
