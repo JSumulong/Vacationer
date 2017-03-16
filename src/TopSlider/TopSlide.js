@@ -12,13 +12,13 @@ function TopSlide(props) {
 		textAlign: "center",
 		paddingTop: 10,
 		paddingBottom: 10,
-		fontSize: 40,
-		fontFamily: "'Gentium Basic', serif",
+		fontSize: 30,
+		fontFamily: "'Raleway Dots', cursive",
 		backgroundColor: "white"
 	}
 	return (
 		<div style={backgroundStyle} className="topSlide">
-			<div style={spanStyle}><span>Find Your Dream Getaway on Vacationer</span></div>
+			<div style={spanStyle}><span><b>Find Your Dream Getaway on Vacationer</b></span></div>
 		</div>
 	)
 }
