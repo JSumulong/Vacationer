@@ -8,12 +8,10 @@ import TopSlider from './TopSlider/TopSlider';
 import Testimonies from './Testimonies/Testimonies';
 import Footer from './Footer/Footer';
 
-
 class App extends Component {
   render() {
   	const appStyle = {
   		"backgroundColor": "white",
-      // fontFamily: "'Josefin Sans', sans-serif"
       fontFamily: "'Pacifico', cursive"
   	}
     return (
