@@ -14,6 +14,7 @@ class Slider extends Component {
 	render() {
 		const container = {
 			width: "100%",
+			height: 400,
 			display: "flex",
 			justifyContent: "center",
 			alignItems: "center"

@@ -14,7 +14,7 @@ class TestimonyCard extends Component {
 		}
 		return (
 			<div className="testimonyCard" style={style}>
-				<TestimonyImage img={this.props.img} alt="testimony image"/>
+				<TestimonyImage img={this.props.img}/>
 			</div>
 		)
 	}
