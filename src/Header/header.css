@@ -1,0 +1,19 @@
+.header-logo {
+	font-family: 'Raleway Dots', cursive;
+	flex: 0;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.fixed-header .header-component {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.fixed-header .header-component .header-logo {
+  max-width: 600px;
+  flex: 1;
+}
+

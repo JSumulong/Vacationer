@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 import ListItem from './ListItem';
+import './header.css';
 
 class Header extends Component {
 	stickyHeader() {
 		const header = document.querySelector('.header-component');
 		const headerPosition = header.offsetTop;
-		function attachHeader() {
+		function attachOrRemoveHeader() {
 			if (window.scrollY >= headerPosition) {
+				document.body.style.paddingTop = header.offsetHeight + "px";
 				document.body.classList.add('fixed-header');
 			} else {
+				document.body.style.paddingTop = 0;
 				document.body.classList.remove('fixed-header');
 			}
 		}
-		window.addEventListener('scroll', attachHeader);
+		window.addEventListener('scroll', attachOrRemoveHeader);
 	}
 	componentDidMount() {
 		this.stickyHeader();
@@ -20,7 +23,7 @@ class Header extends Component {
 	render() {
 		const outerDivStyle = {
 			"backgroundColor": "white",
-			"height": 50,
+			"height": 75,
 			fontFamily: "'Pacifico', cursive",
 			fontSize: 25
 		}
@@ -35,6 +38,7 @@ class Header extends Component {
 		return (
 			<div className="header-component" style={outerDivStyle}>
 				<ul style={ulStyle}>
+					<div className="header-logo"><b>Vacationer</b></div>
 					<ListItem content="Home"/>
 					<ListItem content="About Us"/>
 					<ListItem content="Search"/>
