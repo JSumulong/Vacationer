@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class ListItem extends Component {
+	displayDisclaimerModal() {
+		const modal = document.querySelector('.disclaimer-modal');
+		modal.style.display = "block";
+	}
 	render() {
 		const style = {
 			"flex": 1,
@@ -9,9 +13,10 @@ class ListItem extends Component {
 			"display": "flex",
 			"justifyContent": "center",
 			"alignItems": "center",
+			cursor: "pointer"
 		}
 		return (
-			<li style={style}>{this.props.content}</li>
+			<li style={style} onClick={this.displayDisclaimerModal}>{this.props.content}</li>
 		)
 	}
 }

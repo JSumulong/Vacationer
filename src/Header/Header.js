@@ -3,6 +3,10 @@ import ListItem from './ListItem';
 import './header.css';
 
 class Header extends Component {
+	displayDisclaimerModal() {
+		const modal = document.querySelector('.disclaimer-modal');
+		modal.style.display = "block";
+	}
 	stickyHeader() {
 		const header = document.querySelector('.header-component');
 		const headerPosition = header.offsetTop;
@@ -39,7 +43,7 @@ class Header extends Component {
 			<div className="header-component" style={outerDivStyle}>
 				<ul style={ulStyle}>
 					<div className="header-logo"><b>Vacationer</b></div>
-					<ListItem content="Home"/>
+					<ListItem content="Home" onClick={this.displayDisclaimerModal}/>
 					<ListItem content="About Us"/>
 					<ListItem content="Search"/>
 					<ListItem content="Help"/>
