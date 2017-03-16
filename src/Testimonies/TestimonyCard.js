@@ -9,7 +9,8 @@ class TestimonyCard extends Component {
 			padding: 0,
 			flex: 1,
 			display: "flex",
-			justifyContent: "center"
+			justifyContent: "center",
+			height: 600
 		}
 		return (
 			<div className="testimonyCard" style={style}>
