@@ -7,10 +7,9 @@ class Testimonies extends Component {
 		const containerStyle = {
 			width: "100%",
 			fontFamily: "'Raleway Dots', cursive",
-			borderTop: "solid lightgray 1px"
 		}
 		const h1Style = {
-			marginTop: 100,
+			marginTop: 80,
 			marginBottom: 120
 		}
 		const flexStyle = {
