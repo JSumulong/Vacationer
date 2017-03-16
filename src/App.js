@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import TopSlider from './TopSlider/TopSlider';
 import Testimonies from './Testimonies/Testimonies';
 import Footer from './Footer/Footer';
+import DisclaimerModal from './Modals/DisclaimerModal';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
         />
         <Testimonies />
         <Footer />
+        <DisclaimerModal />
       </div>
     );
   }

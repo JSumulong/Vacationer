@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-import './footerColumn.css';
+import ColumnSpan from './ColumnSpan';
 
 class FooterColumn extends Component {
+	displayDisclaimerModal() {
+		const modal = document.querySelector('.disclaimer-modal');
+		modal.style.display = "block";
+	}
 	render() {
 		const divStyle = {
 			width: "33%"
@@ -9,11 +13,11 @@ class FooterColumn extends Component {
 		return (
 			<div className="footer-column" style={divStyle}>
 				<h2>Vacationer</h2>
-				<p>About Us</p>
-				<p>Contact</p>
-				<p>Policies</p>
-				<p>Travel Safety</p>
-				<p>Help</p>
+				<ColumnSpan content="About Us" /> 
+				<ColumnSpan content="Contact" /> 
+				<ColumnSpan content="Policies" /> 
+				<ColumnSpan content="Travel Safety" /> 
+				<ColumnSpan content="Help" />
 			</div>
 		)
 	}
