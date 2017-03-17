@@ -9,6 +9,7 @@ import Testimonies from './Testimonies/Testimonies';
 import Footer from './Footer/Footer';
 import DisclaimerModal from './Modals/DisclaimerModal';
 import SearchModal from './Modals/SearchModal';
+import NonMobileModal from './Modals/NonMobileModal';
 
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
         <Footer />
         <DisclaimerModal />
         <SearchModal />
+        <NonMobileModal />
       </div>
     );
   }
