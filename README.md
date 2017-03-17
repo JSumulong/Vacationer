@@ -1,6 +1,7 @@
 # Vacationer
 Have you always dreamed of getting away to an exotic location? Well, keep dreaming because this is just a fun little project that won't really take you anywhere. It can't make reservations and it won't book your flight.
-
+![Image of project screenshot]
+(./src/screenshot.png)
 Visit a deployed version of this beautiful website [here](http://vacationer-project-bucket.s3-website.us-east-2.amazonaws.com/)
 
 ## Purpose
