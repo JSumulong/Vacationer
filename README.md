@@ -8,3 +8,9 @@ The purpose of this project is to practice and express:
 * styling React components (inline vs. stylesheet)
 
 Vacationer was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+## Running this project locally
+1. Clone the repo by typing the following code in your terminal `git clone https://github.com/JSumulong/Vacationer.git`
+2. Once the repo has been cloned, cd in to the directory `cd Vacationer`
+3. Then run `npm install`
+4. Finally, start the dev server by running `npm start` and visit `localhost:3000` in your web browser
