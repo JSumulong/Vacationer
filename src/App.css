@@ -22,3 +22,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@media all and (max-width: 1000px) {
+  .non-mobile-modal.display {
+    display: block;
+  }
+}
