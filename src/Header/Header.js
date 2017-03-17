@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ListItem from './ListItem';
+import SearchItem from './SearchItem';
 import './header.css';
 
 class Header extends Component {
@@ -45,7 +46,7 @@ class Header extends Component {
 					<div className="header-logo"><b>Vacationer</b></div>
 					<ListItem content="Home" onClick={this.displayDisclaimerModal}/>
 					<ListItem content="About Us"/>
-					<ListItem content="Search"/>
+					<SearchItem content="Search"/>
 					<ListItem content="Help"/>
 					<ListItem content="Cart"/>
 				</ul>

@@ -8,6 +8,7 @@ import TopSlider from './TopSlider/TopSlider';
 import Testimonies from './Testimonies/Testimonies';
 import Footer from './Footer/Footer';
 import DisclaimerModal from './Modals/DisclaimerModal';
+import SearchModal from './Modals/SearchModal';
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
         <Testimonies />
         <Footer />
         <DisclaimerModal />
+        <SearchModal />
       </div>
     );
   }
