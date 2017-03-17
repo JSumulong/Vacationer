@@ -16,13 +16,16 @@ class TestimonyCard extends Component {
 			borderRight: "solid whitesmoke 1px",
 			borderTop: "solid whitesmoke 1px"
 		}
+		const pStyle = {
+			width: "50%"
+		}
 		return (
 			<div className="testimonyCard" style={style}>
 				<div>
 					<TestimonyImage img={this.props.img}/>
 				</div>
 				<h1>{this.props.name}</h1>
-				<p>{this.props.blurb}</p>
+				<p style={pStyle}>{this.props.blurb}</p>
 			</div>
 		)
 	}
