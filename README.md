@@ -1,6 +1,8 @@
 # Vacationer
 Have you always dreamed of getting away to an exotic location? Well, keep dreaming because this is just a fun little project that won't really take you anywhere. It can't make reservations and it won't book your flight.
 
+Visit a deployed version of this beautiful website [here](http://vacationer-project-bucket.s3-website.us-east-2.amazonaws.com/)
+
 ## Purpose
 The purpose of this project is to practice and express: 
 * compentency in composition with React components
