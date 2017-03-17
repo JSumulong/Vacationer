@@ -7,12 +7,12 @@ class SearchModal extends Component {
 		super(props);
 
 		this.state = {
-			value: ''
+			searchTerm: ''
 		}
 		this.handleChange = this.handleChange.bind(this);
 	}
 	handleChange(event) {
-		this.setState({value: event.target.value});
+		this.setState({searchTerm: event.target.value});
 	}
 	closeSearchModal() {
 		const modal = document.querySelector('.search-modal');
@@ -74,6 +74,7 @@ class SearchModal extends Component {
 		}
 		const displayVacationStyle = {
 			marginTop: 20,
+			marginLeft: 40,
 			width: "100%",
 			height: "100%",
 			overflow: "hidden",
@@ -91,6 +92,9 @@ class SearchModal extends Component {
 					</div>
 					<div style={displayVacationStyle}>
 						{data.vacations
+							.filter(vacation => {
+								return `${vacation.title} ${vacation.priceIncludes}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0
+							})
 							.map(vacation => {
 							return <VacationCard data={vacation} />
 						})}
