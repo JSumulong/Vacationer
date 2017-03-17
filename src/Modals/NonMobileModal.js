@@ -10,7 +10,8 @@ class NonMobileModal extends Component {
 			width: "100%",
 			height: "100%",
 			backgroundColor: "black",
-			color: "white"
+			color: "white",
+			zIndex: 5
 		}
 		const noticeStyle = {
 			fontFamily: "'Gentium Basic', serif",
