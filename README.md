@@ -24,4 +24,5 @@ This project helped me to learn more about composition with React, filling in so
 * Babel
 * React-Router
 * Express.js
+
 Vacationer was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
