@@ -26,7 +26,8 @@ class Testimonies extends Component {
 							<TestimonyCard 
 								img={Testimony.img} 
 								name={Testimony.name} 
-								blurb={Testimony.blurb} 
+								blurb={Testimony.blurb}
+								key={Testimony.name} 
 							/>
 						)
 					})}

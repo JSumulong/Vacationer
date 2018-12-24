@@ -24,7 +24,7 @@ class Home extends Component {
         <Slider content={data.vacations
   	      .map(location => {
   	      	return (
-  	      		<VacationCard data={location} />
+  	      		<VacationCard data={location} key={location.key}/>
   	      	)
   	      })}
         />
