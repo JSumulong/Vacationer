@@ -96,7 +96,7 @@ class SearchModal extends Component {
 								return `${vacation.title} ${vacation.priceIncludes}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0
 							})
 							.map(vacation => {
-							return <VacationCard data={vacation} />
+							return <VacationCard data={vacation} key={vacation.key}/>
 						})}
 					</div>
 				</div>
